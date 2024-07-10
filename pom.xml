@@ -17,6 +17,8 @@
 		<spring-boot.version>3.1.1</spring-boot.version>
 		<postgresql.version>42.5.1</postgresql.version>
 		<tomcat.version>10.1.7</tomcat.version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 
 	<dependencyManagement>

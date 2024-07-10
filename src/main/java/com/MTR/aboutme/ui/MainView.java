@@ -13,13 +13,13 @@ public class MainView extends AppLayout {
     public MainView() {
         H1 title = new H1("About Me");
         RouterLink aboutLink = new RouterLink("About", AboutView.class);
-        Button homeButton = new Button("Home", e -> aboutLink.getUI().ifPresent(ui -> ui.navigate("/")));
+        Button homeButton = new Button("Homer", e -> aboutLink.getUI().ifPresent(ui -> ui.navigate("/")));
 
         HorizontalLayout header = new HorizontalLayout(title, homeButton);
         header.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
 
         addToNavbar(header);
-        addToDrawer(new RouterLink("About", AboutView.class));
+        addToDrawer(new RouterLink("AboutMe", AboutView.class));
     }
 }
 
