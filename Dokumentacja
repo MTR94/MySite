@@ -1,0 +1,27 @@
+Dokumentacja Projektu Strony "O mnie" z Wykorzystaniem Spring i Vaadin
+1. Wstęp
+Projekt "O mnie" ma na celu stworzenie prostej strony internetowej przedstawiającej informacje o autorze. Strona będzie wykorzystywać frameworki Spring i Vaadin do tworzenia aplikacji webowej.
+
+2. Technologie
+Java: Główny język programowania.
+Spring Boot: Framework do tworzenia aplikacji webowych.
+Vaadin: Framework do tworzenia interfejsów użytkownika.
+Maven: Narzędzie do zarządzania budowaniem projektu.
+PostGreSQL
+3. Struktura projektu
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── aboutme
+│   │   │               ├── AboutMeApplication.java
+│   │   │               ├── config
+│   │   │               └── ui
+│   │   │                   ├── MainView.java
+│   │   │                   └── AboutView.java
+│   │   ├── resources
+│   │       └── application.properties
+│   └── test
+├── pom.xml
+└── README.md
