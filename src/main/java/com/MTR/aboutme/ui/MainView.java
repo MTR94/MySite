@@ -3,10 +3,11 @@ import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
+import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouterLink;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
-
+@Route(" ")
 @CssImport("./styles/shared-styles.css")
 public class MainView extends AppLayout {
 
